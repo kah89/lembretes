@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec node"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kah89/lembretes.git"
+    "url": "git+https://github.com/elcioabrahao/lembretes.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kah89/lembretes/issues"
+    "url": "https://github.com/elcioabrahao/lembretes/issues"
   },
-  "homepage": "https://github.com/kah89/lembretes#readme",
+  "homepage": "https://github.com/elcioabrahao/lembretes#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
